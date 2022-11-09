@@ -36,7 +36,9 @@ button{
     background-color: rgb(13, 123, 241);
     color: white;
     border-radius: 8px;
-    transition: 800ms;
+    transition: 500ms;
+    border: none;
+    padding: 5px;
 }
 button:hover{
     background-color: #03814d;
@@ -44,7 +46,7 @@ button:hover{
 }
 .description{
     margin-top:0.7rem;
-    height: 110px;
+    height: 135px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

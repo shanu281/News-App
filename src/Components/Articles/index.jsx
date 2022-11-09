@@ -1,16 +1,21 @@
 import React from "react";
 import Article from "../Article";
 import "./style.css"
+import data from "../data";
 
 class Articles extends React.Component {
     constructor(props) {
         super(props)
     }
-    render() {
+
+ render() {
         return (
             <>
                 <div className="article-container">
-                    <Article />
+                    {data.map(article =>
+                        <Article  key = {article.publishedAt} article={article}/>
+                    )
+                    }
                 </div>
             </>
         )
