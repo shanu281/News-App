@@ -1,0 +1,31 @@
+.footer{
+ 
+    color: white;
+}
+.fa-brands{
+    margin: 10px;
+    color: rgb(251, 241, 241);
+    font-size: 2rem;
+    
+
+
+}
+.fa-brands:hover{
+    color: black
+    
+}
+.copyright{
+    padding-left: 38%;
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin: 2rem;
+    
+}
+.footer-content{
+    justify-content: space-around;
+}
+.ftr{
+    font-size: 1.3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.2;
+}
